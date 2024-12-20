@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrackMaster GPS - Track Everything, Anytime, Anywhere</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">TrackMaster<span>GPS</span></a>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#benefits">Benefits</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact" class="cta-button">Contact Us</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="satellite-animation"></div>
+        <div class="container hero-content">
+            <h1>Track Everything, 
+                <span class="gradient-text">Anytime, Anywhere</span>
+            </h1>
+            <p class="hero-subtitle">Enterprise-grade GPS tracking solutions with unmatched reliability, accuracy, and security</p>
+            <div class="hero-cta">
+                <button class="cta-button primary">
+                    <i class="fas fa-satellite-dish"></i>
+                    Request a Demo
+                </button>
+                <button class="cta-button secondary">
+                    <i class="fas fa-play"></i>
+                    Watch Video
+                </button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="number">99.9%</span>
+                    <span class="label">Uptime</span>
+                </div>
+                <div class="stat">
+                    <span class="number">1M+</span>
+                    <span class="label">Devices Tracked</span>
+                </div>
+                <div class="stat">
+                    <span class="number">50+</span>
+                    <span class="label">Countries</span>
+                </div>
+            </div>
+            <div class="map-visualization">
+                <div class="ping-effect"></div>
+                <div class="route-line"></div>
+                <div class="vehicle-marker">
+                    <i class="fas fa-truck"></i>
+                </div>
+                <div class="coordinates">
+                    <span class="lat">51.5074° N</span>
+                    <span class="lng">0.1278° W</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Advanced GPS Features</h2>
+            <p class="section-subtitle">Comprehensive tracking solutions for complete control and security</p>
+            
+            <div class="features-grid">
+                <!-- Real-Time Tracking Group -->
+                <div class="feature-group">
+                    <h3 class="group-title">Live Monitoring</h3>
+                    <div class="feature-cards">
+                        <div class="feature-card">
+                            <div class="icon-wrapper">
+                                <i class="fas fa-satellite-dish"></i>
+                            </div>
+                            <h4>Real Time Tracking</h4>
+                            <p>Track your vehicles in real-time with precise accuracy</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="icon-wrapper">
+                                <i class="fas fa-power-off"></i>
+                            </div>
+                            <h4>Remote Engine Cutoff</h4>
+                            <p>Control vehicle engine remotely for enhanced security</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="icon-wrapper">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4>Anti Theft</h4>
+                            <p>Advanced security features to prevent vehicle theft</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- History & Playback Group -->
+                <div class="feature-group">
+                    <h3 class="group-title">History & Analytics</h3>
+                    <div class="feature-cards">
+                        <div class="feature-card">
+                            <div class="icon-wrapper">
+                                <i class="fas fa-history"></i>
+                            </div>
+                            <h4>History Route</h4>
+                            <p>Review detailed travel history and routes</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="icon-wrapper">
+                                <i class="fas fa-tachometer-alt"></i>
+                            </div>
+                            <h4>Speed Detection</h4>
+                            <p>Monitor and get alerts for speed limit violations</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="icon-wrapper">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h4>Mileage Statistics</h4>
+                            <p>Detailed mileage and fuel consumption analytics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Platform Support Section -->
+            <div class="platform-support">
+                <h3>Available On All Platforms</h3>
+                <div class="platform-icons">
+                    <div class="platform">
+                        <i class="fab fa-apple"></i>
+                        <span>iOS App</span>
+                    </div>
+                    <div class="platform">
+                        <i class="fab fa-android"></i>
+                        <span>Android App</span>
+                    </div>
+                    <div class="platform">
+                        <i class="fas fa-globe"></i>
+                        <span>Web Platform</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add this after the features section -->
+    <section id="live-demo" class="live-demo">
+        <div class="container">
+            <h2 class="section-title">Live Tracking Dashboard</h2>
+            <div class="dashboard-grid">
+                <div class="map-container">
+                    <div class="radar-display">
+                        <div class="radar-sweep"></div>
+                        <div class="vehicle-dots"></div>
+                        <div class="grid-lines"></div>
+                    </div>
+                    <div class="tracking-info">
+                        <div class="info-item">
+                            <span class="label">Speed</span>
+                            <span class="value speed-value">65 km/h</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Status</span>
+                            <span class="value status-value">Active</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Engine</span>
+                            <span class="value engine-value">Running</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="control-panel">
+                    <div class="control-group">
+                        <button class="control-btn engine-btn">
+                            <i class="fas fa-power-off"></i>
+                            Engine Control
+                        </button>
+                        <button class="control-btn geofence-btn">
+                            <i class="fas fa-draw-polygon"></i>
+                            Set Geofence
+                        </button>
+                        <button class="control-btn history-btn">
+                            <i class="fas fa-history"></i>
+                            View History
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-satellite"></i>
+                        <div class="pulse-ring"></div>
+                    </div>
+                    <h3>Reliable Technology</h3>
+                    <p>Our state-of-the-art GPS systems ensure precise tracking and seamless connectivity for vehicles, assets, and fleets, anytime, anywhere.</p>
+                    <div class="tech-stats">
+                        <div class="stat-item">
+                            <span class="stat-value">99.9%</span>
+                            <span class="stat-label">Accuracy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-cogs"></i>
+                        <div class="pulse-ring"></div>
+                    </div>
+                    <h3>Custom Solutions</h3>
+                    <p>We offer tailored solutions that fit businesses of all sizes, from small logistics operations to large-scale enterprises.</p>
+                    <div class="solution-types">
+                        <span class="tag">Fleet</span>
+                        <span class="tag">Asset</span>
+                        <span class="tag">Personal</span>
+                    </div>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="pulse-ring"></div>
+                    </div>
+                    <h3>Real-Time Insights</h3>
+                    <p>Get live updates and actionable data through our intuitive dashboard, designed for maximum efficiency and control.</p>
+                    <div class="live-indicator">
+                        <span class="pulse-dot"></span>
+                        Live Updates
+                    </div>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shield-alt"></i>
+                        <div class="pulse-ring"></div>
+                    </div>
+                    <h3>Security You Can Trust</h3>
+                    <p>With encrypted systems and robust geofencing capabilities, your assets are always safe and under your watch.</p>
+                    <div class="security-badge">
+                        <i class="fas fa-lock"></i>
+                        256-bit Encryption
+                    </div>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-headset"></i>
+                        <div class="pulse-ring"></div>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Our expert support team is always available to assist with setup, troubleshooting, or any questions you may have.</p>
+                    <div class="support-availability">
+                        <div class="availability-indicator"></div>
+                        Available Now
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Get Started in 3 Simple Steps</h2>
+            <div class="steps-container">
+                <div class="step-card" data-step="1">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <i class="fas fa-plug"></i>
+                        <div class="installation-progress"></div>
+                    </div>
+                    <h3>Install Our Device</h3>
+                    <p>Plug in our GPS tracker to your vehicle or asset in just minutes.</p>
+                    <div class="step-animation">
+                        <div class="device-icon">📍</div>
+                        <div class="connection-line"></div>
+                        <div class="vehicle-icon">🚗</div>
+                    </div>
+                </div>
+
+                <div class="step-card" data-step="2">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                        <div class="connection-waves"></div>
+                    </div>
+                    <h3>Connect to the Platform</h3>
+                    <p>Download our user-friendly app and pair the tracker to start monitoring in real-time.</p>
+                    <div class="download-badges">
+                        <div class="badge">
+                            <i class="fab fa-apple"></i>
+                            App Store
+                        </div>
+                        <div class="badge">
+                            <i class="fab fa-google-play"></i>
+                            Play Store
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-card" data-step="3">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <div class="tracking-pulse"></div>
+                    </div>
+                    <h3>Start Tracking</h3>
+                    <p>Gain instant access to location details, movement history, and alerts—all from your dashboard.</p>
+                    <div class="live-tracking-demo">
+                        <div class="map-preview"></div>
+                        <div class="tracking-dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Transparent Pricing</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Basic</h3>
+                    <div class="price">$29<span>/mo</span></div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Real-time tracking</li>
+                        <li><i class="fas fa-check"></i> Basic reporting</li>
+                        <li><i class="fas fa-check"></i> Up to 5 devices</li>
+                        <li><i class="fas fa-check"></i> Email support</li>
+                    </ul>
+                    <button class="cta-button secondary">Get Started</button>
+                </div>
+                
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Professional</h3>
+                    <div class="price">$79<span>/mo</span></div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> All Basic features</li>
+                        <li><i class="fas fa-check"></i> Advanced analytics</li>
+                        <li><i class="fas fa-check"></i> Up to 20 devices</li>
+                        <li><i class="fas fa-check"></i> 24/7 support</li>
+                        <li><i class="fas fa-check"></i> Geofencing</li>
+                    </ul>
+                    <button class="cta-button">Get Started</button>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">Custom</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> All Professional features</li>
+                        <li><i class="fas fa-check"></i> Custom integration</li>
+                        <li><i class="fas fa-check"></i> Unlimited devices</li>
+                        <li><i class="fas fa-check"></i> Dedicated support</li>
+                        <li><i class="fas fa-check"></i> Custom reporting</li>
+                    </ul>
+                    <button class="cta-button secondary">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <form id="inquiry-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <!-- Contact information -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <!-- Footer content -->
+        </div>
+    </footer>
+
+    <!-- Add this right before closing body tag -->
+    <nav class="mobile-nav">
+        <a href="#" class="nav-item active">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="#features" class="nav-item">
+            <i class="fas fa-cog"></i>
+            <span>Service</span>
+        </a>
+        <a href="#products" class="nav-item">
+            <i class="fas fa-box"></i>
+            <span>Products</span>
+        </a>
+        <a href="#platform" class="nav-item">
+            <i class="fas fa-mobile-alt"></i>
+            <span>Platform</span>
+        </a>
+        <a href="#contact" class="nav-item">
+            <i class="fas fa-envelope"></i>
+            <span>Contact</span>
+        </a>
+    </nav>
+</body>
+</html> 

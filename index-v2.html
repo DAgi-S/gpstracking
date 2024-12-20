@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrackMaster GPS - Next-Gen Tracking Solutions</title>
+    <link rel="stylesheet" href="styles-v2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <nav class="navbar sticky">
+        <div class="container nav-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <div class="pulse"></div>
+                    <i class="fas fa-satellite"></i>
+                </div>
+                <span>TrackMaster<span class="highlight">GPS</span></span>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#benefits" class="nav-link">Benefits</a>
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#contact" class="nav-link cta">Start Tracking Now</a>
+            </div>
+            
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="globe-container" id="globe-container"></div>
+            <div class="hero-content">
+                <h1 class="glitch-text">Next-Gen GPS Tracking</h1>
+                <p class="hero-subtitle">Experience real-time tracking with unmatched precision</p>
+                <div class="cta-group">
+                    <button class="cta-button primary">
+                        <span class="button-content">
+                            <i class="fas fa-rocket"></i>
+                            Start Free Trial
+                        </span>
+                    </button>
+                    <button class="cta-button secondary">
+                        <span class="button-content">
+                            <i class="fas fa-play"></i>
+                            Watch Demo
+                        </span>
+                    </button>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" data-value="99.9">0</div>
+                        <div class="stat-label">Uptime %</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" data-value="1000">0</div>
+                        <div class="stat-label">Active Users</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" data-value="50">0</div>
+                        <div class="stat-label">Countries</div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+                <span>Scroll to explore</span>
+            </div>
+        </section>
+        
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Advanced GPS Features</h2>
+                    <p class="section-subtitle">Experience next-generation tracking capabilities</p>
+                </div>
+                
+                <div class="feature-showcase">
+                    <div class="feature-tabs">
+                        <button class="tab-btn active" data-tab="realtime">
+                            <i class="fas fa-satellite-dish"></i>
+                            Real-Time Tracking
+                        </button>
+                        <button class="tab-btn" data-tab="security">
+                            <i class="fas fa-shield-alt"></i>
+                            Security Features
+                        </button>
+                        <button class="tab-btn" data-tab="analytics">
+                            <i class="fas fa-chart-line"></i>
+                            Analytics
+                        </button>
+                    </div>
+                    
+                    <div class="feature-content">
+                        <div class="feature-panel active" id="realtime">
+                            <div class="demo-screen">
+                                <div class="map-interface">
+                                    <div class="vehicle-marker">
+                                        <i class="fas fa-truck"></i>
+                                        <div class="ping"></div>
+                                    </div>
+                                    <div class="route-path"></div>
+                                </div>
+                                <div class="live-data">
+                                    <div class="data-item">
+                                        <span class="label">Speed</span>
+                                        <span class="value">65 km/h</span>
+                                    </div>
+                                    <div class="data-item">
+                                        <span class="label">Location</span>
+                                        <span class="value">51.5074° N, 0.1278° W</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Additional feature panels will be added in subsequent code blocks -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="benefits" class="benefits">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Why Choose TrackMaster GPS</h2>
+                    <p class="section-subtitle">Industry-leading features that set us apart</p>
+                </div>
+                
+                <div class="benefits-grid">
+                    <div class="benefit-card" data-aos="fade-up">
+                        <div class="benefit-icon">
+                            <i class="fas fa-shield-alt"></i>
+                            <div class="icon-bg"></div>
+                        </div>
+                        <h3>Military-Grade Security</h3>
+                        <p>256-bit encryption and advanced anti-tampering technology</p>
+                        <div class="security-badge">
+                            <i class="fas fa-lock"></i>
+                            ISO 27001 Certified
+                        </div>
+                    </div>
+
+                    <div class="benefit-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="benefit-icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <div class="icon-bg"></div>
+                        </div>
+                        <h3>Real-Time Updates</h3>
+                        <p>Live tracking with updates every 10 seconds</p>
+                        <div class="live-indicator">
+                            <span class="pulse-dot"></span>
+                            Live Updates
+                        </div>
+                    </div>
+
+                    <div class="benefit-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="benefit-icon">
+                            <i class="fas fa-chart-line"></i>
+                            <div class="icon-bg"></div>
+                        </div>
+                        <h3>Advanced Analytics</h3>
+                        <p>AI-powered insights and predictive maintenance</p>
+                        <div class="analytics-preview">
+                            <div class="chart-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="how-it-works">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get Started in 3 Simple Steps</h2>
+                    <p class="section-subtitle">Quick setup, instant results</p>
+                </div>
+                
+                <div class="steps-timeline">
+                    <div class="step" data-aos="fade-right">
+                        <div class="step-number">01</div>
+                        <div class="step-content">
+                            <h3>Install Our Device</h3>
+                            <p>Plug & play installation in under 5 minutes</p>
+                            <div class="step-animation">
+                                <div class="device-animation">
+                                    <i class="fas fa-plug"></i>
+                                    <div class="connection-line"></div>
+                                    <i class="fas fa-car"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step" data-aos="fade-right" data-aos-delay="100">
+                        <div class="step-number">02</div>
+                        <div class="step-content">
+                            <h3>Connect to Platform</h3>
+                            <p>Download our app and pair your device</p>
+                            <div class="app-stores">
+                                <button class="store-btn">
+                                    <i class="fab fa-apple"></i> App Store
+                                </button>
+                                <button class="store-btn">
+                                    <i class="fab fa-google-play"></i> Play Store
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step" data-aos="fade-right" data-aos-delay="200">
+                        <div class="step-number">03</div>
+                        <div class="step-content">
+                            <h3>Start Tracking</h3>
+                            <p>Access your dashboard from any device</p>
+                            <div class="dashboard-preview">
+                                <div class="screen-animation"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Simple, Transparent Pricing</h2>
+                    <p class="section-subtitle">Choose the perfect plan for your tracking needs</p>
+                </div>
+                
+                <div class="pricing-grid">
+                    <div class="pricing-card" data-aos="fade-up">
+                        <div class="plan-header">
+                            <h3>Starter</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">29</span>
+                                <span class="period">/mo</span>
+                            </div>
+                        </div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Real-time tracking</li>
+                            <li><i class="fas fa-check"></i> Mobile app access</li>
+                            <li><i class="fas fa-check"></i> Email support</li>
+                            <li><i class="fas fa-check"></i> 1 vehicle tracking</li>
+                        </ul>
+                        <button class="plan-cta">Get Started</button>
+                    </div>
+
+                    <div class="pricing-card popular" data-aos="fade-up" data-aos-delay="100">
+                        <div class="popular-badge">Most Popular</div>
+                        <div class="plan-header">
+                            <h3>Professional</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">49</span>
+                                <span class="period">/mo</span>
+                            </div>
+                        </div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> All Starter features</li>
+                            <li><i class="fas fa-check"></i> Advanced analytics</li>
+                            <li><i class="fas fa-check"></i> 24/7 support</li>
+                            <li><i class="fas fa-check"></i> Up to 5 vehicles</li>
+                        </ul>
+                        <button class="plan-cta">Get Started</button>
+                    </div>
+
+                    <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="plan-header">
+                            <h3>Enterprise</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">99</span>
+                                <span class="period">/mo</span>
+                            </div>
+                        </div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> All Professional features</li>
+                            <li><i class="fas fa-check"></i> Custom integration</li>
+                            <li><i class="fas fa-check"></i> Priority support</li>
+                            <li><i class="fas fa-check"></i> Unlimited vehicles</li>
+                        </ul>
+                        <button class="plan-cta">Contact Sales</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Start your tracking journey today</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <i class="fas fa-phone"></i>
+                            <h3>Call Us</h3>
+                            <p>24/7 Support Available</p>
+                            <a href="tel:+1234567890">+1 (234) 567-890</a>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email Us</h3>
+                            <p>We'll respond within 24 hours</p>
+                            <a href="mailto:info@trackmaster.com">info@trackmaster.com</a>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <select id="interest">
+                                <option value="">Select Interest</option>
+                                <option value="personal">Personal Tracking</option>
+                                <option value="business">Business Fleet</option>
+                                <option value="enterprise">Enterprise Solution</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html> 
